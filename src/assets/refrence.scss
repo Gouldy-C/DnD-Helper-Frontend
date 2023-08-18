@@ -1,0 +1,39 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+html, body, #root {
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: rgb(85, 60, 57);
+  color: rgba(235, 235, 227, 0.993);
+}
+
+.main-container {
+  min-height: 100vh;
+}
+
+.form-style {
+  max-width: 500px;
+  min-width: 340px;
+}
+
+.container-theme {
+  background-color: $dark;
+  padding: 2rem;
+  border-radius: 1rem 4rem;
+  margin: 2rem auto;
+}
+
+
+@media (max-width: 775px) {
+  .flex-column-sm{
+    flex-direction: column;
+  }
+}
